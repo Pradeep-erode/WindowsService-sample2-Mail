@@ -95,7 +95,7 @@ namespace WindowsServiceProject1
         {
             string Msg = "Hi ! This is DailyMailSchedulerService mail.";//whatever msg u want to send write here.  
 
-            SendMailService.SendEmail("pradeep.kumar@dotnetethics.com", "Subject", Msg);
+            SendMailService.SendEmail("---To mail----", "Subject", Msg);
 
             if (getCallType == 1)
             {
